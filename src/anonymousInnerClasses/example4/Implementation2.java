@@ -22,6 +22,7 @@ public class Implementation2 {
 		 */
 		apple.print();
 
+		 //apple.add();
 		/*
 		 * apple.add();
 		 * 

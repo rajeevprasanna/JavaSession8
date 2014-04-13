@@ -1,11 +1,12 @@
 package staticNestedClasses.example1;
 
 //https://gist.github.com/rajeevprasanna/10520895
-public class Broom {
-	
-	static class B2 {
+public class Broom {	
+	private int x = 10;
+	public static class B2 {
 		void goB2() {
 			System.out.println("hi 2");
+//			System.out.println(x);
 		}
 	}
 
